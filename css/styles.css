@@ -351,7 +351,7 @@ ul {
   margin-top: 72px;
 }
 
-.customers-item {
+/*.customers-item {
   width: 168px;
   height: 88px;
   padding: 16px 32px;
@@ -362,26 +362,38 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}*/
+
+.customers-item {
+  width: 168px;
+  height: 88px;
+  border-radius: 4px;
 }
 
 .customers-item:not(:last-child) {
   margin-right: 24px;
 }
+
 .company {
   width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8E8F99;
+  border: 1px solid #8E8F99;
 }
 
 .company:hover,
 .company:focus {
   border: 1px solid var(--hover-color);
-  fill: var(--hover-color);
+  color: var(--hover-color);
 }
 
 .client {
   width: 104px;
   height: 56px;
-  fill: #8E8F99;
+  fill: currentColor;
 }
 
 .client:hover,
